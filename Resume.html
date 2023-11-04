@@ -1,0 +1,165 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="resume.css">
+</head>
+<style>
+	/* Write CSS Here */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(253, 254, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.full {
+	width: 50%;
+	max-width: 1000px;
+	min-height: 100px;
+	background-color: rgb(245, 239, 231);
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.left {
+	position: initial;
+	background-color: rgb(126, 219, 231);
+	padding: 20px;
+
+}
+.right {
+	position: initial;
+	background-color: rgb(162, 202, 206);
+	padding: 20px;
+
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title, 
+.Summary, .Experience, .Education, .project {
+	margin-bottom: 30px;
+}
+.h2 {
+	background-color: rgb(4, 96, 150);
+}
+</style>
+
+<body>
+	<div class="full">
+		<div class="left">
+			<div class="image">
+				<img src=
+                "D:\Project\Resume using html and css\pngtree-vector-resume-icon-png-image_4272182.jpg"
+					alt="gfg-logo"
+					style="width:100px;height:100px;">
+			</div>
+			<div class="Contact">
+				<h2>Contact</h2>
+				<p><b>Email id:</b>raniraulo28@gmail.com</p>
+				<p><b>Mobile no :</b>8106062592</p>
+			</div>
+			<div class="Skills">
+				<h2>Skills</h2>
+				<ul>
+					<li><b>Programming Languages : 
+					Java, Spring Boot</b></li>
+					<li><b>Frontend : HTML5, CSS3, 
+					JavaScript</b></li>
+					<li><b>Databases: SQL, MySQL</b></li>
+				</ul>
+			</div>
+			<div class="Language">
+				<h2>Language</h2>
+				<ul>
+					<li>English</li>
+					<li>Hindi</li>
+				</ul>
+			</div>
+			<div class="Hobbies">
+				<h2>Hobbies</h2>
+				<ul>
+					<li>Painting</li>
+					<li>Craft</li>
+				</ul>
+			</div>
+		</div>
+		<div class="right">
+			<div class="name">
+				<h1>Rani Raulo</h1>
+			</div>
+			<div class="title">
+				<p>Java Developer</p>
+			</div>
+			<div class="Summary">
+				<h2>Summary</h2>
+				<p>
+                    Certified Java Developer with internship experience,
+                    specializing in core Java, MySQL, and Spring Boot. 
+                    A dedicated team player with a strong commitment to achieving project goals
+                    and exceeding client expectations. During my internship, I contributed to the development 
+                    of a robust payment system designed for e-commerce applications, gaining valuable insights 
+                    into critical software engineering principles.
+				</p>
+			</div>
+			<div class="Experience">
+				<h2>Experience</h2>
+				<h3>HulkHire Tech- Java Developer Intern</h3>
+				<p>September 2023 to Present</p>
+				<ul>
+					<li>Payment Integration System for E-Commerce Application</li>
+					<li>Developed and enhanced payment systems using Java and Spring Boot, leading to a 20% improvement in transaction processing speed.
+                        Utilized Spring, Spring JDBC, and other frameworks for system development, resulting in a 10% reduction in code complexity.
+                        Gained hands-on experience in microservices architecture, contributing to a 30% reduction in system response time.
+                        Integrated RESTful APIs (JSON, CURL, Postman) for seamless communication, improving data exchange efficiency by 15%.
+                    </li>
+				</ul>
+				
+			</div>
+			<div class="Education">
+				<h2>Education</h2>
+				<table>
+					<tr>
+						<th>University/college </th>
+						<th>Passing year </th>
+						<th>percentage/cgpa </th>
+					</tr>
+					<tr>
+						<td>Dr.L.B College</td>
+						<td>2022</td>
+						<td>8.4</td>
+					</tr>
+					<tr>
+						<td>Aditya Degree college</td>
+						<td>2020</td>
+						<td>8.0</td>
+					</tr>
+				</table>
+			</div>
+			<div class="project">
+				<ul>
+					<li>
+						<h2>Project- Gas and Smoke Detector</h2>
+						<p>Detect specific gases like methane, propane, carbon monoxide, etc.,
+                            Provide early warning of potential gas leaks, crucial for preventing explosions, fires, and health hazards.
+                            Accuracy of smoke detection triggering should be 95% or higher.
+                            Sounds alarms should be activated within 1-3 seconds of detection.
+                            Arduino is used to compile and run the code should be close to 100%, after that we connect the Arduino circuit board with help of USB cable.
+                            We set the threshold for smoke at 400. So as soon as the sensor gives output higher than 400, the system triggers the condition that smoke is detected.
+                            Now in this condition, the Arduino board sends the signal to the buzzer to make noise and it will send the signal to light up the red led.
+                            As soon as the smoke value falls below the threshold, the condition will be lifted and the Arduino board will send the signal to light up the green led and the buzzer will stop.
+                            </p>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
